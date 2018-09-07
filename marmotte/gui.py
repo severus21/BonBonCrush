@@ -112,6 +112,7 @@ class HeaderPanel(Panel):
 
         self.points = 0
         self.label_points.configure(text='Points 0', font=DEFAULT_FONT)
+        self.label_alert.configure(text='')
 
     def set_timer(self, timer, delay):
         '''
